@@ -1,0 +1,72 @@
+
+$gap: 10px;
+$border-color: #426e79;
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+body {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid $border-color;
+  border-radius: $gap;
+}
+
+form .data li input {
+  float: right;
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags {
+  display: flex;
+}
+
+.tag {
+  margin: $gap;
+  border: 1px solid $border-color;
+  border-radius: $gap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag:focus {
+  border: 0.5px solid #a2b9bf;
+}
+
+.noteRecord {
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid $border-color;
+  border-radius: $gap;
+  margin: $gap;
+  padding: 0.5 * $gap;
+}
+
+.noteRecordContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  color: red;
+  padding-left: $gap;
+  padding-right: 5px;
+  font-size: 1.2rem;
+}

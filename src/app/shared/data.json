@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "id": "0",
+      "text": "The first note will tell us",
+      "tags": [
+        "#our",
+        "#first"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "a lot about the possibility of this application",
+      "tags": [
+        "#where",
+        "#is",
+        "#my",
+        "#mind"
+      ]
+    },
+    {
+      "id": "2",
+      "text": "if you want to know",
+      "tags": [
+        "#something",
+        "#else"
+      ]
+    }
+  ]
+}
